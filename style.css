@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins";
+}
+
+.hero-nav-section{
+padding-top: 50px;
+background-color: #621fb3;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+margin: 0px 200px;
+padding-top: 10px;
+}
+
+.nav-logo-div{
+width: 150px;
+padding-top: 10px;
+}
+
+.nav-logo-div img{
+width: 120px;
+}
+
+.nav-ul-div ul{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 750px;
+height: 70px;
+margin-left: 100px;
+list-style: none;
+}
+
+.nav-ul-div ul li a{
+font-size: 17px;
+text-decoration: none;
+color: whitesmoke;
+}
+
+.nav-button-div{
+height: 70px;
+width: 200px;
+}
+
+.nav-button-div button{
+height: 50px;
+width: 180px;
+margin-top: 10px;
+background-color: #03C6C7;
+border: none;
+}
+
+.nav-button-div button a{
+color: white;
+font-size: 17px;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* grid container */
+
+.hero-front-ui-container{
+background-color: #621fb3;
+width: 100%;
+height: 700px;
+display: inline-grid;
+grid-template-columns: 550px 900px;
+grid-column-gap: 70px;
+padding-left: 150px;
+}
+/* grid item 1 */
+
+.hero-front-left-grid{
+padding-left: 20px;
+}
+
+.hero-front-left-grid-heading-div{
+margin-top: 100px;
+}
+
+.hero-front-left-grid-heading-div h3{
+font-size: 60px;
+line-height: 80px;
+color: whitesmoke;
+}
+
+.hero-front-left-grid-description-div{
+width: 90%;
+}
+
+.hero-front-left-grid-description-div p{
+color: whitesmoke;
+}
+
+/* grid item 2 */
+
+.hero-front-right-img-div{
+width: 90%;
+height: 550px;
+}
+
+.hero-front-right-img-div img{
+width: 90%;
+height: 650px;
+}
+
+/* ------------------SECTION - 2-------------------------------- */
+
+.section-2-container{
+padding: 0px 150px;
+height: 750px;
+width: 100%;
+display: inline-grid;
+grid-template-columns: 750px 500px;
+grid-column-gap: 150px;
+justify-content: center;
+align-items: center;
+}
+
+.section-2-left-img-grid-item-1{
+height: 700px;
+padding: 50px 0px;
+}
+
+.section-2-left-img-grid-item-1 img{
+height: 100%;
+width: 100%;
+}
+
+.section-2-right-grid-item-2{
+height: 700px;
+}
+
+.section-2-right-grid-content ul{
+padding-top: 80px;
+padding-left: 50px;
+}
+
+.section-2-right-grid-content ul #ul-h2{
+font-size: 30px;
+margin-bottom: 70px;
+}
+
+.section-2-right-grid-content ul li{
+padding-left: 25px;
+margin-top: 50px;
+}
+
+.section-2-right-grid-content ul li::marker{
+color: transparent;
+}
+
+.section-2-right-grid-content ul li p{
+margin-top: 10px;
+margin-left: 27px;
+}
+
+.section-3{
+width: 100%;
+}
+
+.section-3-heading{
+width: 60%;
+position: relative;
+left: 35%;
+padding-top: 50px;
+margin-bottom: 50px;
+}
+
+.section-3-heading h3{
+font-size: 40px;
+}
+
+.section-4-container{
+height: 350px;
+width: 100%;
+display: inline-grid;
+grid-template-columns: 230px 230px 230px 230px;
+grid-column-gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.section-4-grid-item{    
+height: 300px;
+border-radius: 20px;
+box-shadow: 5px 5px #b1afaf; 
+}
+
+.s4gi-div1{
+height: 60%;
+}
+
+.s4gi-div1-img{
+height: 130px;
+width: 130px;
+border-radius: 50% 50%;
+position: relative;
+top: 15%;
+left: 20%;
+padding: 40px 40px;
+}
+
+.s4gi-div2{
+background-color: #621fb3;
+border-radius: 20px;
+height: 42%;
+}
+
+.s4gi-div2 h4{
+font-size: 25px;
+font-weight: 600;
+padding-top: 10px;
+text-align: center;
+}
+
+.s4gi-div2 p{
+text-align: center;
+padding: 0 20px;
+}
+
+#s4gi1 .s4gi-div1-img{
+background-color: #fde7e5;
+}
+
+#s4gi2 .s4gi-div1-img{   
+background-color: #faebe0;
+}
+
+#s4gi3 .s4gi-div1-img{
+background-color: #d7fbf0;
+}
+
+#s4gi4 .s4gi-div1-img{
+background-color: #f4e2fc;
+}
+
+#s4gi2 .s4gi-div2{
+background-color: whitesmoke;
+}
+
+#s4gi3 .s4gi-div2{
+background-color: whitesmoke;
+}
+
+#s4gi4 .s4gi-div2{
+background-color: whitesmoke;
+}
